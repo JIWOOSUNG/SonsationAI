@@ -1,4 +1,11 @@
-fastapi
-uvicorn
 torch
+matplotlib
+seaborn
+scikit-learn
 numpy
+mediapipe
+opencv-python
+fastapi
+pydantic
+uvicorn
+requests
