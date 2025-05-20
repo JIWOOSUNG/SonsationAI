@@ -21,7 +21,7 @@ app = FastAPI()
 # ✅ CORS 설정 (클라이언트 요청 허용)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # 개발 중이므로 모두 허용 (배포 시에는 제한 권장)
+    allow_origins=["https://sonsation.netlify.app"],  # 개발 중이므로 모두 허용 (배포 시에는 제한 권장)
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
