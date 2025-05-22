@@ -18,4 +18,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # 6. Render가 제공하는 PORT 환경변수 사용하여 uvicorn 실행
-CMD ["uvicorn", "predict.main:app", "—host", "0.0.0.0", "—port", "10000"]
+CMD ["uvicorn", "predict.main:app", "—host", "0.0.0.0", "—port", "8000"]
